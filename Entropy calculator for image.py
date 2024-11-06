@@ -44,7 +44,7 @@ def calculate_entropy(file_path):
         return calculate_binary_entropy(file_path)
 
 # Example usage:
-file_path = "1_1.jpg.xyt"
+file_path = "Image.jpg"
 # Replace with the path to your file (image or .bin)
 
 # Check if the file exists before attempting to open it
