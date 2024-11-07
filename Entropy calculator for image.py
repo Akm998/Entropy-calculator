@@ -51,5 +51,7 @@ file_path = "Image.jpg"
 if os.path.exists(file_path):
     entropy_value = calculate_entropy(file_path)
     print(f"Entropy of the file: {entropy_value} bits")
+    entropy = skimage.measure.shannon_entropy(file_path) #image file path
+    print(f"Shannon Entropy of the image: {entropy} bits")
 else:
     print("File does not exist at the specified path.")
